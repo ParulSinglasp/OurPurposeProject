@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'LenskartSans';
+  src: url('fonts/LenskartSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'LenskartSansLight';
+  src: url('fonts/LenskartSans-Hairline.otf');
+}
+
+@font-face {
+  font-family: 'LenskartSerif';
+  src: url('fonts/Lenskart-Serif-Book.otf');
+}
+
+@font-face {
+  font-family: 'LenskartSerifLight';
+  src: url('fonts/Lenskart-Serif-UltraLight.otf');
+}
+
+body {
+  margin: 0;
+  font-family: 'LenskartSans';
+  color: #1a1a1a;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background: #0b1445;
+  color: white;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content h4{
+    text-align: center;
+    font-weight: normal;
+}
+
+.hero-content h1 {
+  font-family: 'LenskartSansLight';
+  font-size: 42px;
+  font-weight: normal;
+}
+
+.hero-content p{
+    font-weight: normal;
+}
+
+.hero-picture img {
+  width: 400px;
+  padding-top: 90px;
+}
+
+.vision {
+  text-align: center;
+  background: #dff0ec;
+  padding: 80px 20px;
+}
+
+.vision h4,h3{
+    font-weight: normal;
+}
+
+.vision h1 {
+  font-size: 48px;
+  font-family: 'LenskartSerif';
+  font-weight: normal;
+}
+
+.focus {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.focus-1 {
+  max-width: 700px;
+  margin: auto;
+}
+
+.focus-slider {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.focus-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.focus-card {
+  min-width: 25%;
+  box-sizing: border-box;
+}
+
+.focus-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.focus-text {
+  background: #e6f3ef;
+  padding: 15px;
+  text-align: left;
+}
+
+.focus-text h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.focus-text p {
+  font-size: 13px;
+  color: #555;
+}
+
+.focus-dots {
+  margin-top: 20px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background: #0b1445;
+}
+
+.everyone-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.everyone-section h2 {
+  font-family: 'LenskartSerif';
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.everyone-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.everyone-card {
+  width: 220px;
+}
+
+.everyone-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.everyone-card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.everyone-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.purpose {
+  background: #dfeeee;
+  text-align: center;
+  padding: 60px;
+}
+
+.purpose h2{
+    font-family: 'LenskartSerif';
+    font-weight: normal;
+}
+.purpose pre{
+    font-family: 'LenskartSerif';
+    font-weight: normal;
+}
+
+.purpose-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.purpose-left, .purpose-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.purpose-left pre, .purpose-right pre{
+    font-family: 'LenskartSans';
+}
+ 
+.purpose-box {
+  background: white;
+  padding: 20px;
+}
+
+.purpose-box h3 {
+  font-family: 'LenskartSans';
+}
+
+.purpose-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+img[src="images/picture11.png"] {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
